@@ -1,0 +1,69 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    text-decoration: none;
+    /* color: black; */
+
+}
+
+body {
+    background-image: url(./wp7095296.webp);
+    background-size: cover;
+    background-position: center;
+    width: 100vw;
+    height: 100vh;
+    /* padding, margin y font-size siempre en rems */
+   justify-content: center;
+   align-items: center;
+   display: flex;
+   position: relative;
+   text-align: center;
+}
+
+header{
+   position: absolute;
+   text-align: center;
+   top: 0;
+   width: 100%;
+   /* border: solid; */
+}
+
+h1{
+
+    font-size: 3rem;
+    margin-top: 2rem;
+    color:rgb(100, 143, 224);
+}
+
+#task-list{
+
+    background-color:rgb(74,126,225);
+    color: white;
+    border-radius: 2rem;
+    height: 18rem;
+    width: 30rem;
+}
+
+#task-list:hover{
+    background-color: rgb(100, 143, 224);
+    color: black;
+}
+
+footer{
+    background-color:rgb(74,126,225);
+    color: white;
+    border-radius: 2rem;
+    height: 100%;
+    width: 100%;
+   margin-top: 2rem;
+    
+}
+
+footer:hover{
+
+    background-color: rgb(100, 143, 224);
+    color: black;
+}
+   
